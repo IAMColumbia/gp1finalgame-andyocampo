@@ -1,1 +1,21 @@
 Release Notes version 1 POC
+
+Systems working so far:
+
+Level generation with random tiles 
+- (as of right now, the level may generate with matches).
+
+Swapping tile locations
+- (the code I wrote to check for neighboring tiles doesn't seem to be
+   working correctly so as of now you can swap a tile with any other on the board).
+
+Systems and bug fixes to be worked on:
+
+- Calculating a match of 3 and 5+.
+- Filling in more tiles from the top when a match has been made.
+- Timer.
+- Limited moves and amount of matches goal.
+* Fixing the code that only allows the player to swap with neighboring tiles.
+* Setting up a level with no matches at the start.
+* Refactoring and separating concerns into different classes.
+* Make code more portable.
