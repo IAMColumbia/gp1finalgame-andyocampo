@@ -1,1 +1,27 @@
 Release Notes version 2 Vertical Slice
+
+Systems working so far:
+
+Level generation with random tiles
+* Level now starts with no matches
+
+Swapping tile locations
+* Tiles can now only be swapped with neighboring tiles
+
+Matching
+- (As of right now, only matches of 3 can be made which will be changed in final release)
+
+Refilling empty tiles
+- (As of right now, the board does not clear matches that were created when refilling
+the board and matches that are created during refill will be removed after player makes
+new match).
+
+Systems and bug fixes to be worked on:
+
+- UI
+- Timer.
+- Limited moves and amount of matches goal.
+* Fix matching calculations to allow matches of 3+ tiles.
+* Fix refilling of empty tiles to clear matches created during refill.
+* Refactoring and separating concerns into different classes.
+* Make code more portable.
