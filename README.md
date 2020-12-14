@@ -1,7 +1,7 @@
 # GameProgrammingFinal
 Game Programming Final Template
 
-Game Name:  Matching Blocks
+Game Name: Block Rush!
 
 Description Short:  Match a certain number of blocks before you run out of moves and time runs out!
 
